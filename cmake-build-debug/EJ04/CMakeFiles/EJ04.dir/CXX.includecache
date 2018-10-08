@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Usuario/CLionProjects/PIIIrepaso/EJ04/Lista.h
+list
+-
+../datastructures/nodo.h
+C:/Users/Usuario/CLionProjects/PIIIrepaso/datastructures/nodo.h
+
+C:/Users/Usuario/CLionProjects/PIIIrepaso/EJ04/main.cpp
+Lista.h
+C:/Users/Usuario/CLionProjects/PIIIrepaso/EJ04/Lista.h
+iostream
+-
+
+C:/Users/Usuario/CLionProjects/PIIIrepaso/datastructures/nodo.h
+
