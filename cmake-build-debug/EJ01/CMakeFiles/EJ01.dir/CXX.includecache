@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,7 +6,25 @@
 
 #IncludeRegexTransform: 
 
-D:/repaso/EJ01/main.cpp
+C:/Users/Usuario/CLionProjects/PIIIrepaso/EJ01/Lista.h
+list
+-
+../datastructures/nodo.h
+C:/Users/Usuario/CLionProjects/PIIIrepaso/datastructures/nodo.h
+
+C:/Users/Usuario/CLionProjects/PIIIrepaso/EJ01/Nodo.h
+
+C:/Users/Usuario/CLionProjects/PIIIrepaso/EJ01/Pila.h
+Nodo.h
+C:/Users/Usuario/CLionProjects/PIIIrepaso/EJ01/Nodo.h
+
+C:/Users/Usuario/CLionProjects/PIIIrepaso/EJ01/main.cpp
 iostream
 -
+Lista.h
+C:/Users/Usuario/CLionProjects/PIIIrepaso/EJ01/Lista.h
+Pila.h
+C:/Users/Usuario/CLionProjects/PIIIrepaso/EJ01/Pila.h
+
+C:/Users/Usuario/CLionProjects/PIIIrepaso/datastructures/nodo.h
 

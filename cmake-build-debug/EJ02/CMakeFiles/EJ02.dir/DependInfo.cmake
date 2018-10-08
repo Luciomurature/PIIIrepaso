@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/repaso/EJ02/main.cpp" "D:/repaso/cmake-build-debug/EJ02/CMakeFiles/EJ02.dir/main.cpp.obj"
+  "C:/Users/Usuario/CLionProjects/PIIIrepaso/EJ02/main.cpp" "C:/Users/Usuario/CLionProjects/PIIIrepaso/cmake-build-debug/EJ02/CMakeFiles/EJ02.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

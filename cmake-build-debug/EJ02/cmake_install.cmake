@@ -1,4 +1,4 @@
-# Install script for directory: D:/repaso/EJ02
+# Install script for directory: C:/Users/Usuario/CLionProjects/PIIIrepaso/EJ02
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
