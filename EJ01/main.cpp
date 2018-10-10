@@ -10,7 +10,7 @@ void eliminaSegunPila(Lista <int>&li, Pila <unsigned int>&pi){
 }
 
 int main() {
-    Lista <int>lis;
+    /*Lista <int>lis;
     Pila <unsigned int>pil;
     lis.insertar(0, 2);
     lis.insertar(1, 4);
@@ -28,6 +28,22 @@ int main() {
 
     for(int i = 0; i<lis.getTamanio(); i++){
         cout<<lis.getDato(i)<<" - ";
+    }*/
+    Lista <int>lis;
+    lis.insertar(0, 2);
+    lis.insertar(1, 4);
+    lis.insertar(2, 6);
+    lis.insertar(3, 8);
+    lis.insertar(4, 9);
+    lis.insertar(5, 3);
+    for(int i = 0; i<lis.getTamanio(); i++){
+        cout<<lis.getDato(i)<<" - ";
     }
+    cout<<endl<<endl;
+    lis.primeroaN(4);
+    for(int i = 0; i<lis.getTamanio(); i++){
+        cout<<lis.getDato(i)<<" - ";
+    }
+
     return 0;
 }

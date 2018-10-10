@@ -38,13 +38,38 @@ public:
     void reemplazar(int pos, T dato);
 
     void vaciar();
+
+    void primeroaN(unsigned int pos);
+
+    void primeroAlUltimo();
 };
 
 
-/**
- * Constructor de la clase Lista
- * @tparam T
- */
+
+template<class T>
+void Lista<T>::primeroaN(unsigned int pos) {
+    int pos_actual = 1;
+    auto *aux = new nodo<T>;
+    /*for(int i = 1; i < pos; i++){
+        aux =  aux->getNext();
+    }
+    if(aux == nullptr){
+        throw 1;
+    }*/
+    aux = inicio;
+    inicio = inicio->getNext();
+    while (pos_actual < pos && aux != nullptr) {
+        pos_actual++;
+        aux = aux->getNext();
+    }
+    if(aux == nullptr){
+        throw 404;
+    }
+
+
+
+}
+
 template<class T>
 Lista<T>::Lista() {
     inicio = nullptr;
@@ -252,6 +277,21 @@ void Lista<T>::reemplazar(int pos, T dato) {
  */
 template<class T>
 void Lista<T>::vaciar() {}
+
+template<class T>
+void Lista<T>::primeroAlUltimo(){
+    auto aux = new nodo<T>();
+    aux = inicio;
+    inicio = inicio->getNext();
+    aux->setNext(nullptr);
+    auto temp = new nodo<T>;
+    temp = inicio;
+    while(temp->getNext() != nullptr){
+        temp = temp->getNext();
+    }
+    temp->setNext(aux);
+
+}
 
 
 #endif //LISTA_H

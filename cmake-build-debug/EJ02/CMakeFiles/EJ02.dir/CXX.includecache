@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Usuario/CLionProjects/PIIIrepaso/EJ02/Lista.h
+list
+-
+../datastructures/nodo.h
+C:/Users/Usuario/CLionProjects/PIIIrepaso/datastructures/nodo.h
+
 C:/Users/Usuario/CLionProjects/PIIIrepaso/EJ02/main.cpp
 iostream
 -
+Lista.h
+C:/Users/Usuario/CLionProjects/PIIIrepaso/EJ02/Lista.h
+
+C:/Users/Usuario/CLionProjects/PIIIrepaso/datastructures/nodo.h
 
